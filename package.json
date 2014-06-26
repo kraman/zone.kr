@@ -1,0 +1,24 @@
+{
+  "name": "zone",
+  "version": "0.1.1-pre",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit tests",
+    "posttest": "cd benchmarks; ./run_bench.sh",
+    "postinstall": "node_modules/.bin/sdocs --out docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strongloop/zone.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strongloop/zone/issues"
+  },
+  "homepage": "https://github.com/strongloop/zone",
+  "devDependencies": {
+    "strong-docs": "git+ssh://git@github.com:strongloop/strong-docs"
+  }
+}
